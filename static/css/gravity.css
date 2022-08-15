@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#box1{
+  position:absolute;
+  border-radius: 50%;
+  background: rgb(51, 191, 247);
+  box-shadow: 0 0 6px rgb(51, 191, 247);
+  transition-timing-function: linear;
+}
+#back{
+  position: absolute;
+  margin: 10px;
+  color: #fff;
+  border: none;
+  background-color: #40a9ff71;
+  width: 60px;
+  height: 25px;
+  border-radius: 5px;
+  transition: 0.2s;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+#back:hover{
+  background-color: #40A9FF;
+  border-radius: 8px;
+  box-shadow: 0 0 3px #40A9FF;
+}
+.godiv{
+  width: 160px;
+  height: 70px;
+  position: relative;
+  margin: 400px auto;
+}
+.down{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 100px;
+  background-color: #727C85;
+  text-align: center;
+}
+.btngo{
+  font-size: 22px;
+  background-color: #1890FF;
+  color: #fff;
+  height: 70px;
+  width: 160px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.btngo:hover{
+  background-color: #40A9FF;
+  border-radius: 10px;
+  box-shadow: 0 0 6px #40A9FF;
+}
+.RecordNo{  
+  position: relative;
+  top: 40%;    
+  color: #C3D0D9;
+  text-decoration: none;
+}
